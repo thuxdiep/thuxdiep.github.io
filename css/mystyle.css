@@ -58,6 +58,32 @@ nav ul li a:hover{
     transition: 0.5s;
 }
 
+.socials li {
+    list-style: none;
+    /* padding: 10px 20px; */
+    padding-top: 22px;
+    padding-left: 22px;
+    font-size: 20px;
+    font-family: 'PT Mono', monospace;
+}
+.socials a {
+    color: black;
+    font-weight: bold;
+}
+.socials a:hover {
+    color: #BFBFBF;
+    transition: 0.5s;
+}
+.socials a:visited {
+    color: black;
+}
+.socials a:visited:hover {
+    color: #BFBFBF;
+    transition: 0.5s;
+}
+    
+
+
 .backVideo {
     position: absolute;
     right: 0;
