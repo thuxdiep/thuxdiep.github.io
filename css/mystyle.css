@@ -81,7 +81,6 @@ nav ul li a:hover{
     color: #BFBFBF;
     transition: 0.5s;
 }
-    
 
 
 .backVideo {
@@ -108,4 +107,11 @@ nav ul li a:hover{
 
 .bold {
     font-weight: bold;
+}
+
+.size {
+    width: 200px;
+    margin-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }

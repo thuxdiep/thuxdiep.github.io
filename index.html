@@ -9,8 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=PT+Mono&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    
 </head>
-<body>
+<body onload="move('dragIcon')">
     <video autoplay muted loop plays-inline class="backVideo">
         <source src="assets/videos/video2.mp4" type="video/mp4">
       </video>
@@ -24,10 +26,21 @@
                     <li><a href='#'>Resume</a></li>
                 </ul>
             </nav>
-            <div class="container">
-               
-            </div>
         </div>
     </header>
+
+    <div id="drag"><a onclick="return false" ondblclick="location=this.href" href="about.html"><img class = "size"  src="https://live25east.com/wp-content/uploads/2015/10/placeholder-circle.png"</a></div>
+    <div id="drag2"><a onclick="return false" ondblclick="location=this.href" href="about.html"><img class = "size"  src="https://www.tutorialspoint.com/images/trending_categories.svg"</a></div>
+    
+    <script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
+    <script>
+        let el = document.getElementById('drag');
+        let draggie = new Draggabilly(el);
+
+        let el2 = document.getElementById('drag2');
+        let draggie2 = new Draggabilly(el2);
+
+        
+    </script>
 </body>
 </html>
