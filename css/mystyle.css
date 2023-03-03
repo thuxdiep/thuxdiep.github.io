@@ -32,13 +32,14 @@ nav {
     padding-top: 20px;
     padding-left: 40px;
     padding-bottom: 20px;
-    backdrop-filter: blur(7px);
+    /* backdrop-filter: blur(7px); */
 }
 
 .title {
     padding-right: 30px;
     font-family: 'Gloock', serif;
     font-size: 33px;
+    color: #ffffff;
 }
 
 nav ul li {
@@ -49,12 +50,12 @@ nav ul li {
     font-family: 'PT Mono', monospace;
 }
 nav ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: #ffffff;
+    color: #aaaaaa;
     transition: 0.5s;
 }
 
@@ -85,7 +86,7 @@ nav ul li a:hover{
 
 .backVideo {
     position: absolute;
-    right: 0;
+    right: 1;
     bottom: 0;
     z-index: -1;
 }
@@ -93,7 +94,7 @@ nav ul li a:hover{
 #aboutContainer {
     background-image: url(../assets/images/textbg.png);
     height: 755px;
-    width: 625px;
+    width: 600px;
     margin-top: 20px;
     margin-left: 25%;
     margin-bottom: 20px;
@@ -109,9 +110,18 @@ nav ul li a:hover{
     font-weight: bold;
 }
 
-.size {
-    width: 200px;
-    margin-left: 10%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.reSize {
+    width: 140px;
+    display: inline;
+    margin-left: 5%;
+    margin-top: 4%;
+    /* padding-top: 40px;
+    padding-bottom: 20px; */
+}
+.sticky {
+    float: right;
+    margin-top: -30%;
+    margin-right: 35%;
+    position: relative;
+    /* padding-bottom: 4%; */
 }

@@ -14,7 +14,7 @@
 <body>
     <div class="hero">
         <video autoplay muted loop plays-inline class="backVideo">
-            <source src="assets/videos/video2.mp4" type="video/mp4">
+            <source src="assets/videos/video7.mp4" type="video/mp4">
         </video>
         <nav>
             <h2 class="title">Thu's Studio.</h2>
@@ -24,7 +24,7 @@
                 <li><a href='#'>Resume</a></li>
             </ul>
         </nav>
-        <div class="container">
+        <div class="container" id="about">
             <div id="aboutContainer">
                 <div id="aboutText">
                     <p class="bold" style="font-style: italic;">> > > accessing "about thu.txt"</p><br>
@@ -47,5 +47,10 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
+    <script>
+        let el = document.getElementById('about');
+        let draggie = new Draggabilly(el);
+    </script>
 </body>
 </html>
