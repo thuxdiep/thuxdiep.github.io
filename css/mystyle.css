@@ -125,3 +125,17 @@ nav ul li a:hover{
     position: relative;
     /* padding-bottom: 4%; */
 }
+
+.postBG {
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    width: 60%;
+    padding: 20px;
+}
+.postContent {
+    font-size: large;
+}
+.postTitle {
+    font-family: 'PT Mono', monospace;
+}
