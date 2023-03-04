@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thu's Studio.</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/mystyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,10 +32,82 @@
     <div class="container">
         <div class="postBG">
             <div class="postContent">
-                <h1 class="postTitle">Ticky</h1><br>
-                <p>Ticky is a mobile application that aims to provide online ticketing for a movie theater in the most efficient and simplest way possible.</p>
+                <h1 class="headingTitle">Ticky - Mobile Movie Ticketing</h1><br>
+                <p>Ticky is a mobile application that allows users to quickly and conveniently buy movie tickets online, without any hassles that may come with buying in person. This is a project I had an opportunity to work on during my Google UX Design course on Coursera. I took ownership of the entire project, from ideating solutions to researching, as well as prototyping.<br>
+                <!-- <span class="bold">Project duration:</span> January, 2023 - February, 2023.</p><br><br>
+                <h2 class="headingTitle">The Problem</h2><br>
+                <p>Buying movie tickets in person may not be favorable by some due to the long wait, no flexibility, and may also be a big commitment for some. Not to mention, there are many people that prefer online services nowadays due to convenience and personal circumstances (i.e. social anxiety).</p><br>
+                <h2 class="headingTitle">Goal and Solution</h2><br>
+                <p>Ticky aims to help users buy movie tickets at anytime and anywhere they want in the easiest and most convenient way possible. Ticky also introduces flexibility and commitment-free solution where users can purchase tickets in advance.</p><br><br>
+                <h2 class="headingTitle">Research Process</h2><br>
+                <h3 class="headingTitle">Competitive Audit</h3><br>
+                <p>A Competitive Audit was conducted in order to better understand what our product needs to offer in order to stand out and solve as many pain points as we can. I specifically focused on the ticketing feature of the competitors, as it is a core requirement that greatly impacts the user experience.</p><br>
+                <p>As I researched the weaknesses/gaps that my competitors had, some opportunities for Ticky arose:</p><br>
+                <ul>
+                    <li>Provide more accessibility options: change contrast mode, captions for trailers, use
+                        of appropriate colors for backgrounds, texts, and visual elements. etc...</li>
+                    <li>Consider using a more enthusiastic tone</li>
+                    <li>Improve user flow to enhance user experience</li>
+                    <li>Consider providing more details about movies</li>
+                </ul><br>
+                <h3 class="headingTitle">Persona</h3><br>
+                <p>I also created 2 personas in order to represent the user base of Ticky.</p><br> -->
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-01.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-02.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-03.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-04.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-05.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-06.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-07.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-08.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-09.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-10.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-11.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-12.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-13.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-14.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-15.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-16.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-17.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-18.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-19.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-20.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-21.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-22.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-23.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-24.png">
+                <img class="slides" src="assets/images/ticky/Portfolio Project 1 - Case study slide deck - TD-25.png">
+                <button class="leftButton" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="rightButton" onclick="plusDivs(+1)">&#10095;</button><br><br>
+                <div class="socials">
+                   <a href="">Low-Fidelity Prototype</a>
+                   <a href="">High-Fidelity Prototype</a>
+                   <a href="">Full-Size Presentation</a>
+                </div>
+                
             </div>
         </div>
     </div>
+    <script>
+        //Slideshow - starts
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+        showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("slides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+        }
+        //Slideshow - ends
+    </script>
 </body>
 </html>
