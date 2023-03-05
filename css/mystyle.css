@@ -164,3 +164,7 @@ nav ul li a:hover{
 .rightButton {
     width: 50px;
 }
+#spotify {
+    margin-left: 20%; 
+    position: relative;  
+}
